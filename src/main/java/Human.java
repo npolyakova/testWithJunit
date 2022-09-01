@@ -16,7 +16,7 @@ public class Human {
     }
 
     public Human(int age, String name, String lastName) {
-        this.age = 10;
+        this.age = 34;
         this.name = name;
         this.lastName = lastName;
     }
