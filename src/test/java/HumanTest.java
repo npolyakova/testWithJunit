@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class HumanTest {
@@ -22,6 +23,7 @@ public class HumanTest {
     }
 
     @Test
+    @Disabled
     public void humanConstructorTest() {
         Assertions.assertEquals(testHuman.getAge(), 31);
         Assertions.assertEquals(testHuman.getName(), "John");
